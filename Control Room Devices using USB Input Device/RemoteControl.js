@@ -5,7 +5,7 @@ const cameraId = 3; // Set this to the camera id of camera you want to control. 
 
 
 // For this macro to work the configuration "xConfiguration Peripherals InputDevice Mode" needs to be set to "On". In CE9.5 this can only be set via web interface not on API.
-
+// Sample Code
 
 xapi.event.on('UserInterface InputDevice Key Action', (event) => {
   if(event.Type == 'Pressed'){
